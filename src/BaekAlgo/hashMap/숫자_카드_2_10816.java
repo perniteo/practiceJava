@@ -1,7 +1,15 @@
-import java.io.*;
-import java.util.*;
+package BaekAlgo.hashMap;
 
-public class Main {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
+
+public class 숫자_카드_2_10816 {
+
+  // hashMap 을 사용한 간단한 count
 
   public static void main(String[] args) throws IOException {
 

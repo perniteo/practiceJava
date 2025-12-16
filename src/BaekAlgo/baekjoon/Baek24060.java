@@ -1,4 +1,4 @@
-package baekjoon;
+package BaekAlgo.baekjoon;
 
 public class Baek24060 {
 

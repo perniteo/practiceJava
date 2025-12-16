@@ -1,8 +1,20 @@
-import java.io.*;
-import java.util.Arrays;
+package BaekAlgo.binarySearch;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class 수_찾기_1920 {
+
+  // 직접 mergeSort 를 구현해서 정렬
+  // 그 배열에 존재하는지 이분탐색으로 검증
+
+  // 최적화된 Arrays.sort() 보단 성능이 떨어지는 것을 확인했음
+
+  // 메모리  시간
+  // 53404	1108  --> Arrays.sort()
+  // 69352	1344  --> mergeSort()
 
   public static void mergeSort(int[] arr) {
 
