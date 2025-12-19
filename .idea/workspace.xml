@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec2cd96-b1bb-437f-aafb-0062d10dd404" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/BruteForce/P1436F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/BruteForce/P1436F2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/BruteForce/P1436S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/BruteForce/P1436S2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/Problem1018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/Sort/InsertionBubble/대표값2_2587.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/Sort/InsertionBubble/수정렬하기_2750.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/Sort/InsertionBubble/커트라인_25305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaekAlgo/sugarDelivery/solutions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers/Lv1/_2016년.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers/PCCE/데이터_분석_10번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers/PCCE/이웃한_칸_9번.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programmers/PCCP/붕대감기_1번.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaekAlgo/DONE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/StudyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/StudyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmers/PCCP/퍼즐_게임_챌린지_2번/DONE" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,30 +38,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/perni/git/my-frontend&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.StudyString.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/perni/git/practice/src/BaekAlgo/lis",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.StudyString.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\perni\git\practice\src\BaekAlgo\lis" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\perni\git\practice\src\Programmers\auto_push" />
       <recent name="C:\Users\perni\git\practice\src" />
       <recent name="C:\Users\perni\git\practice\src\etc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BaekAlgo.lis.bs" />
+      <recent name="BaekAlgo.binarySearch" />
+      <recent name="BaekAlgo.binarySearch.공유기_설치_2110" />
+      <recent name="BaekAlgo.hashMap" />
       <recent name="BaekAlgo.Sort.InsertionBubble" />
-      <recent name="BaekAlgo.Sort" />
-      <recent name="BaekAlgo.Sort2750" />
-      <recent name="BaekAlgo.sugarDelivery" />
-      <recent name="BaekAlgo.BruteForce" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="auto_push.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/BaekAlgo/auto_push/auto_push.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src/BaekAlgo/auto_push" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="auto_push.sh" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/src/Programmers/auto_push/auto_push.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Programmers" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.auto_push.sh" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

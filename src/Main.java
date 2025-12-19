@@ -1,55 +1,65 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class Main {
 
-  public static void insertionSort(int[] arr) {
-    for (int i = 1; i < arr.length; i++) {
-      int key = arr[i];
+  static List<Integer> tails;
 
-      int j = i - 1;
+  public static int binarySearch(int x) {
 
-      while (j >= 0 && arr[j] > key) {
-        arr[j+1] = arr[j];
-        j--;
-      }
-      arr[j+1] = key;
-    }
-  }
+    int idx = 0;
 
-  public static void bubbleSort(int[] arr) {
-    int n = arr.length;
+    int left = 0;
 
-    for (int i = 0; i < n - 1; i++) {
-      for (int j = 0; j < n - 1 - i; j++) {
-        if (arr[j] > arr[j+1]) {
-          int impl = arr[j+1];
-          arr[j+1] = arr[j];
-          arr[j] = impl;
-        }
+    int right = tails.size() - 1;
+
+    while (left <= right) {
+      int mid = (right - left) / 2 + left;
+
+      if (tails.get(mid) < x) {
+        left = mid + 1;
+      } else {
+        idx = mid;
+        right = mid - 1;
       }
     }
+
+    return idx;
   }
 
   public static void main(String[] args) throws IOException {
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+    int a = Integer.parseInt(br.readLine());
+
+    int[] arr = new int[a];
+
     StringTokenizer st = new StringTokenizer(br.readLine());
 
-    int n = Integer.parseInt(st.nextToken());
-    int k = Integer.parseInt(st.nextToken());
-
-    int[] arr = new int[n];
-
-    st = new StringTokenizer(br.readLine());
-
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < a; i++) {
       arr[i] = Integer.parseInt(st.nextToken());
     }
 
-    insertionSort(arr);
+    tails = new ArrayList<>();
 
-    System.out.println(arr[n-k]);
+    tails.add(arr[0]);
+
+    for (int i = 1; i < a; i++) {
+      int tailLen = tails.size();
+
+      int end = tails.get(tailLen - 1);
+
+      if (arr[i] > end) {
+        tails.add(arr[i]);
+      } else {
+        tails.set(binarySearch(arr[i]), arr[i]);
+      }
+    }
+
+    System.out.println(tails.size());
   }
 }
