@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class 하노이의_탑_11729 {
 
-  // 재귀 추상적 사고에 벽 느끼면서 감탄했음
+  // 재귀 추상적 사고
   // 훈련 필요
 
   public static void hanoi(int n, int from, int via, int to) {
