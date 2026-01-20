@@ -5,6 +5,9 @@ import java.util.*;
 
 public class 이분그래프_1707 {
 
+  // 정점을 두 집합으로 분할, 각 집합 정점은 인접하지 않는다
+  // 인근 노드가 다른 색이라는 말
+
   static ArrayList<ArrayList<Integer>> graph;
 
   static boolean[] visited;
