@@ -1,6 +1,6 @@
-package Programmers.코드챌린지.예선_1차_2025;
+package Programmers.코드챌린지_2025;
 
-class 유연근무제 {
+class 유연근무제_1차예선 {
     public int solution(int[] schedules, int[][] timelogs, int startday) {
         int answer = 0;
         
