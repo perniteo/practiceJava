@@ -1,6 +1,6 @@
-package Programmers.Lv2;
+package Programmers.월간_코드_챌린지_시즌2;
 
-class 비트_연산 {
+class _2개_이하로_다른_비트 {
 
     // 2개 이하로 다른 비트
     // 짝수면 + 1, 홀수면 뒤에서 부터 읽고 처음 0 나오는 idx <-> -1 idx 지점과 바꾸면 된다고 생각
