@@ -4,7 +4,7 @@ import java.util.*;
 
 class Impl_메뉴_리뉴얼 {
 
-  // 구현
+  // 구현 + 조합(dfs, backtracking)
     
     Map<String, Integer> map = new HashMap<>();
     
