@@ -1,4 +1,4 @@
-package Programmers.카카오코드_예선_2017;
+package Programmers.KAKAO.카카오코드_예선_2017;
 
 import java.util.*;
 
