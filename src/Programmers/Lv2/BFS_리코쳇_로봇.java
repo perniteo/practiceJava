@@ -17,6 +17,7 @@ class BFS_리코쳇_로봇 {
     
     int[] start = new int[2];
     int[] goal = new int[2];
+
     
     void bfs(int[] start) {
         ArrayDeque<int[]> q = new ArrayDeque<>();
