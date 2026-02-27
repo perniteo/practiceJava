@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class lis_dp_n2 {
@@ -26,7 +27,7 @@ public class lis_dp_n2 {
       arr[i][1] = b;
     }
 
-    Arrays.sort(arr, (a, b) -> a[0] - b[0]);
+    Arrays.sort(arr, Comparator.comparingInt(a -> a[0]));
 
     int[] dp = new int[n];
 
