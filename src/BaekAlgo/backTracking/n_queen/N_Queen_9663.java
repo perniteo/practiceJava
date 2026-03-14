@@ -21,10 +21,10 @@ public class N_Queen_9663 {
     }
 
     for (int i = 0; i < n; i++) {
-      if (!col[i] && !diag1[i + row] && !diag2[i - row + n - 1]) {
-        col[i] = diag1[i + row] = diag2[i - row + n - 1] = true;
+      if (!col[i] && !diag1[i + row] && !diag2[row - i + n - 1]) {
+        col[i] = diag1[i + row] = diag2[row - i + n - 1] = true;
         dfs(row + 1);
-        col[i] = diag1[i + row] = diag2[i - row + n - 1] = false;
+        col[i] = diag1[i + row] = diag2[row - i + n - 1] = false;
       }
     }
   }
