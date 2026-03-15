@@ -7,7 +7,8 @@ public class 로봇_조종하기_2169 {
 
   // GRAPH 로는 성능상 불가능
   // 분할 정복식 DP
-  // 
+  // 아래 이동은 고정이고 왼쪽 오른쪽 경우가 있으니 왼 위 오 방향에서 오는 경우 중 최대값을 DP
+
   public static void main(String[] args) throws IOException{
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
